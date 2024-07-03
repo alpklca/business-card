@@ -1,0 +1,41 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 100px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 10px solid #000814;
+    border-left: 7px solid #000814;
+    border-radius: 10px;
+    background: #ffc300;
+    color: #2b2839;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.border-blue {
+    border: 1px dotted blue;
+
+}
+
+.shadow{
+    text-shadow: 1px 1px #2b2839;
+    
+}
+
+@keyframes animation{
+    from {background-color: red;}
+    to{background-color: yellow;}
+
+}
